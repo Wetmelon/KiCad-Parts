@@ -20,4 +20,9 @@ D Kinetis K66 Processor MAPBGA
 K Teensy
 $ENDCMP
 #
+$CMP MK66FX1M0VMD18-Teensy
+D Kinetis K66 Processor MAPBGA
+K Teensy
+$ENDCMP
+#
 #End Doc Library
