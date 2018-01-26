@@ -5,18 +5,8 @@ D GPS Module used in the Adafruit Ultimate GPS Breakout
 K GPS
 $ENDCMP
 #
-$CMP MK66FX1M0
-D Kinetis K66 Processor MAPBGA
-K Teensy
-$ENDCMP
-#
-$CMP MK66FX1M0VLQ18
-D Kinetis K66 Processor MAPBGA
-K Teensy
-$ENDCMP
-#
-$CMP MK66FX1M0VMD18
-D Kinetis K66 Processor MAPBGA
+$CMP MK66FX1M0VLQ18-Teensy
+D Kinetis K66 Processor LQFN
 K Teensy
 $ENDCMP
 #
