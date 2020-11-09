@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 8P8C_Shielded_x2
+D RJ connector, 8P8C (8 positions 8 connected), two LEDs, RJ45, Shielded, two ports
+K 8P8C RJ female connector led dual
+F ~
+$ENDCMP
+#
 $CMP ADA4807-4
 D Quad Rail-to-Rail Input/Output Amplifiers, TSSOP-14
 K quad opamp
@@ -93,6 +99,24 @@ K quad opamp
 F http://www.ti.com/lit/ds/symlink/opa376.pdf
 $ENDCMP
 #
+$CMP RJ45_Shielded_x2
+D RJ connector, 8P8C (8 positions 8 connected), two LEDs, Shielded, two ports
+K 8P8C RJ female connector led
+F ~
+$ENDCMP
+#
+$CMP SN75C1167
+D Dual RS485 Transceiver
+K RS-485, RS485, transceiver
+F https://www.ti.com/lit/ds/symlink/sn65c1168.pdf
+$ENDCMP
+#
+$CMP ST26C32ABTR
+D Quad RS-422 Receiver
+K RS422, RS-422
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/61/59/11/3c/4f/2b/46/27/CD00002491.pdf/files/CD00002491.pdf/jcr:content/translations/en.CD00002491.pdf
+$ENDCMP
+#
 $CMP TL064
 D Quad Low-Power JFET-Input Operational Amplifiers, DIP-14/SOIC-14/SSOP-14
 K quad opamp
@@ -133,6 +157,21 @@ $CMP TSZ124
 D Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14
 K quad opamp
 F http://www.ti.com/lit/ds/symlink/lm2902-n.pdf
+$ENDCMP
+#
+$CMP VDD1
+D Power symbol creates a global label with name "VDD1"
+K power-flag
+$ENDCMP
+#
+$CMP VDD2
+D Power symbol creates a global label with name "VDD2"
+K power-flag
+$ENDCMP
+#
+$CMP VDD3
+D Power symbol creates a global label with name "VDD3"
+K power-flag
 $ENDCMP
 #
 #End Doc Library
